@@ -1,0 +1,402 @@
+/* XL Device 1200px. */
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {}
+
+
+/* LG Device: 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* MD Device: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Mobile device up to 768 >> */
+@media (min-width: 768px){
+    .desktop__hide {
+        display: none;
+    }
+}
+
+/* Mobile devies under 767 << */
+@media (max-width: 767px) {
+    .mobile__hide {
+        display: none;
+    }
+
+    /* header menus */
+    .bars i{
+        color: var(--brandColor);
+    }
+    .header__logo {
+        width: 168px;
+    }
+    .main__header__section{
+        display: none;
+    }
+    .top__header__wrapper{
+        padding: 3px 0px;
+    }
+    .top__header_section {
+        box-shadow: 0px 0px 10px 0px gray;
+    }
+
+    /* Hero section  */
+    .hero__cover__content p{
+        display: none;
+    }
+    .hero__cover__content {
+        padding: 12px;
+        position: absolute;
+        bottom: 0px;
+        background: unset;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+    }
+    .hero__cover_thumb{
+        height: 220px;
+    }
+    .hero__cover__news__wrapper{
+        margin-bottom: 13px;
+    }
+    .hero__cover__content h2{
+        color: white;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .hero__cover_thumb::before {
+        content: "";
+        position: absolute;
+        top: -46px;
+        right: 0;
+        bottom: 0px;
+        left: 0;
+        z-index: 1;
+        background-image: linear-gradient( 180deg ,rgba(50,50,50,0),#000);
+        min-width: 100%;
+        border-radius: 4px;
+    }
+    .hero__mini__thumb{
+        height: 98px;
+    }
+    .hero__mini__content p{
+        display: none;
+    }
+    .hero__mini__box{
+        display: flex;
+    }
+    .hero__mini__thumb{
+        width: 68%;
+    }
+    .hero__mini__content {
+        position: unset;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Second Section */
+    .second__section__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 7px;
+    }
+    .second__section__para{
+        display: none;
+    }
+    .second__content h2{
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .second__content p{
+        font-size: 14px;
+    }
+    .second__thumb {
+        height: 100px;
+    }
+    .third__section__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fourth__sec__wrapper{
+        display: unset;
+    }
+    .middle__cover__content {
+        padding: 17px 0px;
+        border-bottom: 2px solid #f0f0f0;
+    }
+    .middle__cover__content h2 {
+        font-size: 20px;
+    }
+    .middle__cover_thumb {
+        height: 212px;
+    }
+    .middle__cover__news__wrapper {
+        margin-bottom: 12px;
+    }
+    .middle__mini__content h3 {
+        font-size: 17px;
+    }
+    .middle__mini__thumb {
+        width: 61%;
+        height: 90px;
+        padding: 5px;
+    }
+    .overlay__date{
+        display: none;
+    }
+    .news__overlay__content h2 {
+        font-size: 18px;
+    }
+    .news__featured__overlay{
+        margin-bottom: 15px;
+    }
+    .news__overlay__content{
+        width: 75%;
+    }
+    .middle__mini__news__wrapper{
+        grid-gap: 3px;
+    }
+    .list__news__section{
+        margin-bottom: 13px;
+    }
+    .list__news__section{
+        padding: 15px;
+    }
+    .video__icon {
+        top: 25%;
+        left: 42%;
+    }
+    .six__column__container{
+        margin-bottom: 20px;
+    }
+    .six__section{
+        margin-bottom: 10px;
+    }
+    .photo__gallery__thumb {
+        height: 195px;
+    }
+    .photo__gallery__wrapper {
+        margin-bottom: 18px;
+    }
+    .photo__gallery__title p {
+        padding: 2px 19px;
+        font-size: 15px;
+    }
+    .photo__gallery__content {
+        position: unset;
+        padding: 20px;
+        background: black;
+        padding-bottom: 60px;
+    }
+    .photo__gallery__content h2 {
+        font-size: 22px;
+    }
+    .photo__gallery__content small {
+        font-size: 16px;
+    }
+    .lifestyle__wrapper {
+        margin-bottom: 16px;
+    }
+    .photo__gallery__section {
+        margin-bottom: 12px;
+    }
+    .six__col__mini__thumb {
+        height: 87px;
+        width: 100%;
+    }
+    .six__mini__content h3{
+        font-size: 16px;
+    }
+    .list__news_box {
+       padding: 3px 0px;
+    }
+
+    /* Footer section */
+    .footer__logo__box {
+        width: 230px;
+    }
+    .footer__main {
+        padding-top: 25px;
+    }
+    .footer__last__social h2{
+        font-size: 20px;
+    }
+    .footer__last__social i {
+        font-size: 22px;
+        padding: 0px 4px;
+    }
+    .footer__bottom__wrapper{
+        display: unset;
+        text-align: center;
+    }
+    .footer__bottom__left p{
+        padding-bottom: 10px;
+    }
+    .footer__bottom__section {
+        margin-top: 14px;
+    }
+    .footer__shadow {
+        background: #00800008;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #07d3f4;
+        margin-bottom: 10px;
+    }
+    .footer__bottom__left {
+        display: none;
+    }
+
+    /* Single Page */
+    .single__news__title h1 {
+        font-size: 22px;
+        margin-bottom: 6px;
+        margin-top: 10px;
+    }
+    .single__page__wrapper{
+        padding: 14px;
+    }
+    .single__page__thumb{
+        height: 160px;
+    }
+    .single__excerpt{
+        display: unset;
+    }
+    .single__excerpt .single__date{
+        margin: 0px;
+        margin-top: 6px;
+    }
+    .single__excerpt .single__author{
+        margin-bottom: 15px;
+    }
+    .single__content li::before {
+        width: 10px;
+        height: 10px;
+        left: 0px;
+        top: 6px;
+    }
+    .single__content iframe{
+        height: auto;
+    }
+    .single__related__item {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 10px;
+    }
+    .single__main__section {
+        margin: 14px 0px;
+    }
+    .main__tab__wrapper{
+        margin-top: 15px;
+    }
+    .single__related__thumb {
+        width: 345px;
+        height: 95px;
+    }
+    .single__related__content h2{
+        font-size: 18px;
+    }
+    .author__profile__social{
+        width: 92%;
+        bottom: -40px;
+        display: unset;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px #80808069;
+    }
+    .author__profile__wrapper{
+        display: unset;
+    }
+    .author__thumb{
+        left: 34%;
+    }
+    .author__content {
+        padding-left: unset;
+        margin-top: 48px;
+        margin-bottom: 13px;
+    }
+    .author__content h5{
+        display: initial;
+        font-size: 15px;
+    }
+    .author__main__section{
+        height: 230px;
+    }
+    .category__thumb {
+        width: 500px;
+        height: 100px;
+    }
+    .category__content h2 {
+        color: black;
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .category__excerpt{
+        display: none;
+    }
+
+    /* Category page */
+    .category__featured__wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        margin-bottom: 9px;
+    }
+    .lifestyle__thumb__category{
+        height: 295px;
+    }
+    .lifestyle__wrapper__cateogry:last-child{
+        display: none;
+    }
+    .category__featured__section{
+        margin-bottom: 20px;
+    }
+    .lifestyle__content__category p {
+        font-size: 14px;
+        margin-top: 9px;
+    }
+    .lifestyle__content__category{
+        padding: 10px;
+    }
+    .lifestyle__content h3 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 7px;
+    }
+    .lifestyle__content{
+        padding: 15px;
+    }
+    .lifestyle__content__category h3{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .lifestyle__content__category{
+        padding: 10px;
+    }
+    .page__thumb {
+        height: 160px;
+    }
+    .page__header__title h2 {
+        padding: 10px 8px;
+        font-family: poppinSemi;
+        font-size: 18px;
+    }
+    .page__content__wrapper{
+        margin: 10px 0px;
+    }
+    .page__content__wrapper {
+        padding: 12px;
+    }
+    .page__content__wrapper p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+
+/* Mobile CSS  */
+.bars img {
+    width: 28px;
+    cursor: pointer;
+}
